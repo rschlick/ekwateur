@@ -12,6 +12,7 @@ import static java.util.Map.of;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Démarrage du calculateur Ekwateur ...");
 
         // Création d'un client particulier
         IndividualClient individualClient = new IndividualClient.Builder("EKW12345678")

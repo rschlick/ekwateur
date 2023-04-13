@@ -35,3 +35,8 @@ public class Main {
         }
 }
 ```
+
+## Lancement du programme avec Docker
+
+1- Build de l'image Docker : ` docker build -t ekwateur-test . `
+2- Run du container Docker : ` docker run ekwateur-test 
