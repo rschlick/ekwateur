@@ -46,3 +46,4 @@ public class Main {
 1. Ajout de Spring Boot 3.x 
 2. Ajout de Spring Data Repository pour persister les données clientes
 3. Implémentation d'une API REST pour modifier/consulter les données clientes
+4. Ajout d'un fichier contributing.md avec les conventions de code et d'architecture (DDD, Hexagonale, etc.)
