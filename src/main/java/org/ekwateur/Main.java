@@ -5,7 +5,6 @@ import org.ekwateur.domain.model.ProfessionalClient;
 
 import java.math.BigDecimal;
 import java.time.YearMonth;
-import java.util.Map;
 
 import static java.util.Map.of;
 

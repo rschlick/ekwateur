@@ -1,6 +1,5 @@
 package org.ekwateur.domain.model;
 
-import org.ekwateur.domain.builder.ProfessionalClientBuilder;
 import org.ekwateur.domain.service.ProfessionalBillCalculator;
 
 import java.math.BigDecimal;
