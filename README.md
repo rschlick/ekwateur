@@ -2,7 +2,7 @@
 Ce programme permet de calculer le montant à facturer à un client d'Ekwateur pour un mois calendaire. Il gère deux types de clients : les clients professionnels et les clients particuliers. Les clients peuvent consommer de l'électricité et du gaz.
 
 ## Prérequis
-Java 8 ou une version ultérieure
+Java 17 ou une version ultérieure
 
 ## Structure du projet
 Le projet est organisé en packages et contient les classes suivantes :
@@ -38,5 +38,11 @@ public class Main {
 
 ## Lancement du programme avec Docker
 
-1- Build de l'image Docker : ` docker build -t ekwateur-test . `
-2- Run du container Docker : ` docker run ekwateur-test 
+1. Build de l'image Docker : ` docker build -t ekwateur-test . `
+2. Run du container Docker : ` docker run ekwateur-test `
+
+## Roadmap
+
+1. Ajout de Spring Boot 3.x 
+2. Ajout de Spring Data Repository pour persister les données clientes
+3. Implémentation d'une API REST pour modifier/consulter les données clientes
